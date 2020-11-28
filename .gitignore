@@ -4,6 +4,6 @@ runs
 __pycache__
 *.dat
 .vscode
-env
+.env
 DRL.code-workspace
 recording
