@@ -5,5 +5,4 @@ __pycache__
 *.dat
 .vscode
 .env
-DRL.code-workspace
 recording

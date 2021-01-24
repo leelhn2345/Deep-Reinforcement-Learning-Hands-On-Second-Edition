@@ -141,7 +141,7 @@ if __name__ == "__main__":
         help="Enable cuda computation")
     args = parser.parse_args()
 
-    device = torch.device("cuda" if args.cuda else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     envs = [
         InputWrapper(gym.make(name))
         for name in ('Breakout-v0', 'AirRaid-v0', 'Pong-v0')
