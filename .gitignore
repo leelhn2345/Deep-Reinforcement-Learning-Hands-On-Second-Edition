@@ -4,5 +4,6 @@ runs
 __pycache__
 *.dat
 .vscode
-.env
+.venv
 recording
+*.ipynb
